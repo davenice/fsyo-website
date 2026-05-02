@@ -8,7 +8,7 @@ Players can progress through the ensembles, or enter directly at any level. For 
 
 A 'Pyramid' Concert showcasing the progression through the orchestras is usually held at the [Central Hall, Southampton](http://www.centralhall.org.uk/) in Jan/Feb. Visit the [Concerts and Events](/concerts/) page for more details.
 
-To join a group please visit the Southampton Music Hub contact page or telephone 023 8083 3648 or e-mail music@southampton.gov.uk.
+To join a group please visit the Southampton Music Hub contact page or telephone 023 8083 3648 or e-mail [music@siowmusic.org](mailto:music@siowmusic.org).
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
