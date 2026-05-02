@@ -2,6 +2,7 @@ baseURL = "https://fsyo.org.uk/"
 locale = "en-GB"
 title = "Friends of Southampton Youth Orchestras"
 theme = "fsyo"
+canonifyURLs = true
 
 [params]
   description = "Friends of Southampton Youth Orchestras – supporting Southampton's orchestras and string ensembles"
