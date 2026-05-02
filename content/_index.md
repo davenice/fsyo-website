@@ -4,7 +4,7 @@ title: "Home"
 
 ## Welcome to the website of the Friends of Southampton Youth Orchestras (FSYO)
 
-The [Southampton Youth Orchestras](/ensembles/ "See the list of Ensembles & Orchestras")are a fantastic way for children and young adults to benefit from the wonderful opportunities that playing music can bring. Whatever your background, learning a musical skill has been shown to improve language, literacy and general intelligence; academic ability; personal and social development and emotional development.
+The [Southampton Youth Orchestras](/ensembles/ "See the list of Ensembles & Orchestras") are a fantastic way for children and young adults to benefit from the wonderful opportunities that playing music can bring. Whatever your background, learning a musical skill has been shown to improve language, literacy and general intelligence; academic ability; personal and social development and emotional development.
 
 Friends of Southampton Youth Orchestras is a charitable organisation (Registered Charity no. 283789) which supports Southampton’s orchestras and string ensembles. These offer opportunities for very new players, who may be just 8 or 9 years old, through to sixth-formers of Grade 8 standard and beyond. Many of those who started out in the junior ensembles have, with encouragement from teachers and families, built on those early experiences to get right to the top of the [SYO musical Pyramid](/about/ "Find out more") and beyond.
 
