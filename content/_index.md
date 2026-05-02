@@ -2,20 +2,18 @@
 title: "Home"
 ---
 
-## Welcome to the website of the Friends of Southampton Youth Orchestras (FSYO)
+## Friends of Southampton Youth Orchestras
 
-The [Southampton Youth Orchestras](/ensembles/ "See the list of Ensembles & Orchestras") are a fantastic way for children and young adults to benefit from the wonderful opportunities that playing music can bring. Whatever your background, learning a musical skill has been shown to improve language, literacy and general intelligence; academic ability; personal and social development and emotional development.
+The [Southampton Youth Orchestras](/ensembles/) offer children and young adults a fantastic opportunity to develop as musicians — from very new players aged 8 or 9, through to sixth-formers of Grade 8 standard and beyond.
 
-Friends of Southampton Youth Orchestras is a charitable organisation (Registered Charity no. 283789) which supports Southampton’s orchestras and string ensembles. These offer opportunities for very new players, who may be just 8 or 9 years old, through to sixth-formers of Grade 8 standard and beyond. Many of those who started out in the junior ensembles have, with encouragement from teachers and families, built on those early experiences to get right to the top of the [SYO musical Pyramid](/about/ "Find out more") and beyond.
+FSYO is a charitable organisation that has supported these orchestras since 1971. We fund instruments, music, tours, residential weekends and specialist coaching. [Find out more about us.](/about/)
 
-[*Find out more about FSYO*](/about/)
+## Concerts & Events
 
-### Events and Concerts
+Visit our [Concerts & Events](/concerts/) page for upcoming concert dates and details.
 
-Please visit our [Events](/concerts/) page to find out what is happening!
+## Support Us
 
-## Become a SYO Friend!
+Membership costs just £10 per year per family and goes directly to the orchestras. You can also support us at concerts by buying tickets, programmes and raffle tickets.
 
-We’d love to hear from you if you could offer any kind of support, great or small, throughout the year! Becoming a member today is an amazing way of helping to support your child’s orchestra, and other orchestras in the pyramid, now and into the future.
-
-To become a friend please read our page on **[different ways to support us](/support-us/)** or complete the membership application form [here](https://docs.google.com/forms/d/e/1FAIpQLScbeffUw_kyhXg_xUYin0rwBhGnRQaWJyJoUTy4rWWK6zzYrw/viewform?usp=sharing&ouid=115591289234940576224).
+[Find out how to support us](/support-us/) or [apply for membership](https://docs.google.com/forms/d/e/1FAIpQLScbeffUw_kyhXg_xUYin0rwBhGnRQaWJyJoUTy4rWWK6zzYrw/viewform?usp=sharing) directly.
