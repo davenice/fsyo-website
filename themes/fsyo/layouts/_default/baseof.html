@@ -38,8 +38,8 @@
   {{ partial "footer.html" . }}
 
   <script>
-    // Simple mobile nav toggle (replaces WP/Bootstrap JS dependency)
     document.addEventListener('DOMContentLoaded', function () {
+      // Mobile nav toggle
       var btn = document.querySelector('.btn-collapse');
       if (btn) {
         btn.addEventListener('click', function () {
@@ -47,11 +47,28 @@
           if (target) target.classList.toggle('in');
         });
       }
-      // Sticky nav on scroll
-      var poor = document.querySelector('.mythemes-poor');
-      window.addEventListener('scroll', function () {
-        document.body.classList.toggle('scroll-nav', window.scrollY > 50);
-      });
+
+      // Sticky nav — switches to fixed and inserts a spacer to prevent layout jump
+      var nav = document.querySelector('.mythemes-poor');
+      var spacer = null;
+
+      function update() {
+        var navTop = nav.getBoundingClientRect().top;
+        if (!nav.classList.contains('is-fixed') && navTop <= 0) {
+          var h = nav.offsetHeight;
+          nav.classList.add('is-fixed');
+          spacer = document.createElement('div');
+          spacer.style.height = h + 'px';
+          nav.parentNode.insertBefore(spacer, nav);
+        } else if (nav.classList.contains('is-fixed') && window.scrollY <= nav._offsetTop) {
+          nav.classList.remove('is-fixed');
+          if (spacer) { spacer.remove(); spacer = null; }
+        }
+      }
+
+      // Store natural offset once on load
+      nav._offsetTop = nav.getBoundingClientRect().top + window.scrollY;
+      window.addEventListener('scroll', update, { passive: true });
     });
   </script>
 
