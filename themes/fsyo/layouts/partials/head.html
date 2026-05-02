@@ -1,0 +1,30 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/mythemes-icons.css" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/effects.css" />
+<link rel="stylesheet" href="/css/header.css" />
+<link rel="stylesheet" href="/css/typography.css" />
+<link rel="stylesheet" href="/css/navigation.css" />
+<link rel="stylesheet" href="/css/nav.css" />
+<link rel="stylesheet" href="/css/blog.css" />
+<link rel="stylesheet" href="/css/footer.css" />
+<link rel="stylesheet" href="/css/elements.css" />
+<link rel="stylesheet" href="/css/plugins.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/custom.css" />
+<style>
+  body { background-color: #343b43; }
+  body > div.content, body footer aside { background-color: #ffffff; }
+  .mythemes-header a.header-description { color: rgba(255,255,255,0.5); }
+  .mythemes-header a.header-description:hover { color: rgba(255,255,255,0.7); }
+  .mythemes-header a.header-title { color: #ffffff; }
+  body.scroll-nav .mythemes-poor { background-color: rgba(255,255,255,0.91); }
+  .mythemes-poor { background-color: #ffffff; }
+  div.mythemes-page-header { padding-top: 60px; padding-bottom: 60px; }
+</style>

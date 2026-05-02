@@ -1,0 +1,307 @@
+body.scroll-nav .mythemes-poor{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+
+	box-shadow: 0px 1px 2px rgba( 0, 0, 0, 0.07 );
+}
+
+body.admin-bar.scroll-nav .mythemes-poor{
+	top: 32px;
+}
+@media (max-width: 782px ){
+    body.admin-bar.scroll-nav .mythemes-poor{
+		top: 46px;
+	}
+}
+@media (max-width: 600px ){
+    body.admin-bar.scroll-nav .mythemes-poor{
+		top: 0px;
+	}
+}
+
+@media ( max-width: 1024px ){
+	div.mythemes-poor{
+		height: auto;
+		max-height: 100%;
+	}
+}
+
+.mythemes-poor{
+	width: 100%;
+	border-bottom: 1px solid #ededed;
+}
+/* CUSTOMIZATION */
+.mythemes-nav-label,
+.mythemes-nav-btn{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.mythemes-nav-label,
+.mythemes-nav-label a{
+	color: #333333;
+	font-size: 24px;
+	font-style: bold;
+	font-variant: bold;
+	font-weight: bold;
+
+	line-height: 36px;
+	text-transform: uppercase;
+
+	-webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+    	 -o-transition: all 0.3s linear;
+    	-ms-transition: all 0.3s linear;
+    		transition: all 0.3s linear;
+}
+.mythemes-nav-label a:hover{
+	color: #000000;
+}
+.mythemes-nav-btn{
+	text-align: right;
+}
+.mythemes-nav-btn button.btn-base-nav{
+	color: #ffffff;
+}
+
+/* GENERAL FOR HEADER MENU'S */
+nav.base-nav{
+	padding: 15px 0px;
+	text-align: center;
+}
+nav.base-nav ul.mythemes-menu > li{
+	padding: 0px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+nav.header-nav ul li a{
+	font-family: "Roboto", sans-serif, Arial, serif;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+
+/* BASE MENU */
+nav.base-nav ul.mythemes-menu a,
+nav.base-nav ul.mythemes-menu a:hover{
+	text-decoration: none;
+
+	-webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+    	 -o-transition: all 0.3s linear;
+    	-ms-transition: all 0.3s linear;
+    		transition: all 0.3s linear;
+}
+
+div.visible-nav{
+	width: 0px;
+	height: 0px;
+	display: none;
+	visibility: hidden;
+}
+
+/* BASE MENU  - MEDIUM AND LARGE SCREENS */
+@media ( min-width: 1025px ){
+
+	div.visible-nav{
+		display: none;
+		visibility: hidden;
+	}
+
+	div.jspVerticalBar{
+		display: none !important;
+	}
+
+	div.jspContainer{
+		overflow: inherit !important;
+		position: relative !important;
+		height: auto !important;
+		width: auto !important;
+	}
+	div.jspPane{
+		position: relative !important;
+		width: auto !important;
+	}
+	nav.base-nav{
+		overflow: inherit !important;
+		padding: 15px 0px !important;
+		width: auto !important;
+	}
+	nav.base-nav ul.mythemes-menu span.menu-plus{
+		display: none;
+	}
+
+	nav.base-nav ul.mythemes-menu > li{
+		padding: 0px;
+	}
+	nav.base-nav ul.mythemes-menu > li > a{
+		padding: 11px 15px;
+	}
+	nav.base-nav ul.mythemes-menu > li.menu-item-has-children > a{
+		display: block;
+		margin-right: 12px;
+	}
+
+	/* ITEMS WITH SUB MENU */
+	nav.base-nav ul.mythemes-menu > li.menu-item-has-children:hover{
+		background: #ffffff;
+		box-shadow: 0px 0px 5px rgba( 0,0,0, 0.15 );
+	}
+	nav.base-nav ul.mythemes-menu > li.menu-item-has-children > a{
+		background-image: url(../img/nav-vertical-arrow.png);
+		background-repeat: no-repeat;
+		background-position: center right;
+	}
+
+	/* SUB MENU */
+	nav.base-nav ul.mythemes-menu ul{
+		background: #ffffff;
+		box-shadow: 0px 2px 5px rgba( 0,0,0, 0.15 );
+
+		display: none;
+
+		list-style: none;
+		padding: 0px;
+		position: absolute;
+		width: 200px;
+		z-index: 100;	
+		text-align: left;
+
+		-webkit-transition: all 0.3s linear;
+	       -moz-transition: all 0.3s linear;
+	    	 -o-transition: all 0.3s linear;
+	    	-ms-transition: all 0.3s linear;
+	    		transition: all 0.3s linear;
+	}
+
+	nav.base-nav ul.mythemes-menu li:hover > ul{
+		display: block;
+		z-index: 102;
+	}
+
+	nav.base-nav ul.mythemes-menu ul li{
+		width: 201px;
+		padding: 11px 15px;
+	}
+
+	nav.base-nav ul.mythemes-menu ul li,
+	nav.base-nav ul.mythemes-menu ul li a{
+		display: block;
+	}
+	nav.base-nav ul.mythemes-menu ul > li:first-child{
+		border-top: none;
+	}	
+	nav.base-nav ul.mythemes-menu ul li{
+		border-top: 1px solid #f8f8f8;
+	}
+	nav.base-nav ul.mythemes-menu ul li.menu-item-has-children > a{
+		background-image: url(../img/nav-orizontal-arrow.png);
+		background-repeat: no-repeat;
+		background-position: center right;
+	}
+
+	/* SUB MENU NEXT LEVELS */
+	nav.base-nav ul.mythemes-menu ul ul{
+		margin: -29px 0px 29px 186px;
+	}
+}
+
+/* BASE MENU */
+@media ( max-width: 1024px ){
+	div.visible-nav{
+		display: block;
+		visibility: visible;
+	}
+	div.jspVerticalBar{
+		display: block !important;
+	}
+	nav.base-nav{
+		padding: 0px;
+	}
+	nav.base-nav.header-nav.in{
+		text-align: left;
+		border-top: 1px solid #eeeeee;
+		max-height: calc( 100% - 66px );
+		max-height: -webkit-calc( 100% - 66px );
+	}
+	nav.base-nav ul.mythemes-menu{
+		text-align: left;
+		padding: 0px;
+	}
+	nav.base-nav span.menu-plus{
+		background-color: #343b43;
+		border-bottom: 1px solid #020911;
+
+		display: block;
+
+		float: right;
+
+		margin: 7px 5px 0px 0px;
+
+		width: 30px;
+		height: 30px;
+
+		-webkit-border-radius: 3px;
+  	   	   -moz-border-radius: 3px;
+  				border-radius: 3px;
+	}
+	nav.base-nav span.menu-plus:before{
+		color: #ffffff;
+		cursor: pointer;
+
+		font-family: "fontello";
+		font-size: 18px;
+		font-variant: normal;
+		font-style: normal;
+		font-weight: normal;
+		speak: none;
+
+		display: inline-block;
+		text-decoration: inherit;
+		text-align: center;
+		font-variant: normal;
+		text-transform: none;
+
+		content: '\e8d0';
+		line-height: 30px;
+
+		width: 30px;
+		height: 30px;
+
+		-webkit-transition: all 0.3s linear;
+	       -moz-transition: all 0.3s linear;
+	    	 -o-transition: all 0.3s linear;
+	    	-ms-transition: all 0.3s linear;
+	    		transition: all 0.3s linear;
+	}
+	nav.base-nav span.menu-plus.collapsed:before{
+		content: '\e8cf';
+	}
+
+	nav.base-nav ul.mythemes-menu,
+	nav.base-nav ul.mythemes-menu li{
+		display: block;
+	}
+	nav.base-nav ul.mythemes-menu li{
+		border-bottom: 1px solid #f0f0f0;
+	}
+	nav.base-nav ul.mythemes-menu li:last-child{
+		border-bottom: none;
+	}
+	nav.base-nav ul.mythemes-menu li a{
+		font-size: 18px;
+		line-height: 24px;
+		margin-right: 41px;
+		padding: 11px 10px 11px 3px;
+	}
+	nav.base-nav ul.mythemes-menu ul{
+		display: none;
+		padding-left: 15px;
+	}
+	nav.base-nav ul.mythemes-menu ul > li:first-child{
+		border-top: 1px solid #f0f0f0;
+	}
+}

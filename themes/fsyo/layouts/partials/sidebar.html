@@ -1,0 +1,26 @@
+<aside class="col-sm-4 col-md-3 col-lg-3 sidebar-to-right">
+  <div class="widget widget_nav_menu">
+    <h4 class="widget-title">Main menu</h4>
+    <ul class="menu">
+      {{ range .Site.Menus.main }}
+        {{ if not .Parent }}
+          {{ $url := .URL }}
+          {{ $isActive := or (eq $.RelPermalink $url) (hasPrefix $.RelPermalink $url) }}
+          <li class="menu-item{{ if $isActive }} current-menu-item{{ end }}{{ if .HasChildren }} menu-item-has-children{{ end }}">
+            <a href="{{ $url }}">{{ .Name }}</a>
+            {{ if .HasChildren }}
+              <ul class="sub-menu">
+                {{ range .Children }}
+                  {{ $childActive := eq $.RelPermalink .URL }}
+                  <li class="menu-item{{ if $childActive }} current-menu-item{{ end }}">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                  </li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</aside>

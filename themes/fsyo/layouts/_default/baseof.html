@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Locale }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+
+  <header>
+    <div class="mythemes-header overflow-wrapper parallax-container" style="height: 300px;">
+      <div class="valign-cell-wrapper" style="background: rgba(0,0,0,0.6);">
+        <div class="valign-cell">
+          <div class="row">
+            <div class="col-lg-12">
+              <a class="mythemes-logo" href="/" title="{{ .Site.Title }}">
+                <img src="/images/FSYO_logo_new_site_trans.png" alt="{{ .Site.Title }}" />
+              </a>
+              <a class="header-title" href="/" title="{{ .Site.Title }}">{{ .Site.Title }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax" style="background-image: url(/images/header-bg.jpg);">
+        <img src="/images/header-bg.jpg" alt="{{ .Site.Title }}" />
+      </div>
+    </div>
+
+    {{ partial "nav.html" . }}
+  </header>
+
+  <div class="content">
+    <div class="container">
+      <div class="row">
+
+        <section class="col-sm-8 col-md-9 col-lg-9">
+          <div class="content-border right">
+            <div class="mythemes-page">
+              {{ block "main" . }}{{ end }}
+            </div>
+          </div>
+        </section>
+
+        {{ partial "sidebar.html" . }}
+
+      </div>
+    </div>
+  </div>
+
+  {{ partial "footer.html" . }}
+
+  <script>
+    // Simple mobile nav toggle (replaces WP/Bootstrap JS dependency)
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn = document.querySelector('.btn-collapse');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          var target = document.querySelector(btn.getAttribute('data-toggle'));
+          if (target) target.classList.toggle('in');
+        });
+      }
+      // Sticky nav on scroll
+      var poor = document.querySelector('.mythemes-poor');
+      window.addEventListener('scroll', function () {
+        document.body.classList.toggle('scroll-nav', window.scrollY > 50);
+      });
+    });
+  </script>
+
+</body>
+</html>

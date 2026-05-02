@@ -1,0 +1,73 @@
+/* Typography improvements over the original theme */
+
+body {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+p {
+  margin-bottom: 1.2em;
+}
+
+h1 { font-size: 2rem; margin-bottom: 0.75em; }
+h2 { font-size: 1.75rem; margin-bottom: 0.65em; }
+h3 { font-size: 1.4rem; margin-bottom: 0.6em; }
+h4 { font-size: 1.15rem; }
+
+/* Tighten the entry title on inner pages */
+h1.entry-title {
+  font-size: 2rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+/* Table improvements */
+table {
+  width: 100%;
+  margin-bottom: 1.5em;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  padding: 0.5em 0.75em;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+table tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+/* Link style consistency */
+.mythemes-page a {
+  color: #337ab7;
+}
+
+.mythemes-page a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+/* Sidebar menu */
+.widget_nav_menu .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.widget_nav_menu .menu li a {
+  display: block;
+  padding: 6px 0;
+  font-size: 0.95em;
+}
+
+.widget_nav_menu .sub-menu {
+  list-style: none;
+  padding-left: 1em;
+  margin: 0;
+}
+
+/* Content area breathing room */
+.content-border {
+  padding: 1.5em 0;
+}

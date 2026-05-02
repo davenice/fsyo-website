@@ -1,0 +1,24 @@
+<footer>
+  <div class="mythemes-black-side">
+    <div class="container mythemes-copyright">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <p>
+            <span class="copyright">© {{ now.Year }} Friends of Southampton Youth Orchestras<br>
+            Registered Charity no. 283789</span>
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <div class="mythemes-social">
+            {{ with .Site.Params.twitter }}
+              <a href="{{ . }}" class="mythemes-icon-twitter" target="_blank" rel="noopener" aria-label="Twitter"></a>
+            {{ end }}
+            {{ with .Site.Params.facebook }}
+              <a href="{{ . }}" class="mythemes-icon-facebook" target="_blank" rel="noopener" aria-label="Facebook"></a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

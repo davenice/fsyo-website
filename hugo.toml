@@ -1,0 +1,39 @@
+baseURL = "https://fsyo.org.uk/"
+locale = "en-GB"
+title = "Friends of Southampton Youth Orchestras"
+theme = "fsyo"
+
+[params]
+  description = "Friends of Southampton Youth Orchestras – supporting Southampton's orchestras and string ensembles"
+  twitter = "https://x.com/friends_syo"
+  facebook = "https://www.facebook.com/Friendsofsouthamptonyouthorchestras/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About Us"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Committee"
+    url = "/committee/"
+    weight = 3
+    parent = "About Us"
+  [[menu.main]]
+    name = "Ensembles & Orchestras"
+    url = "/ensembles/"
+    weight = 4
+    parent = "About Us"
+  [[menu.main]]
+    name = "Concerts & Events"
+    url = "/concerts-and-events/"
+    weight = 5
+    parent = "About Us"
+  [[menu.main]]
+    name = "Please Donate"
+    url = "/please-donate/"
+    weight = 6
+    parent = "About Us"
