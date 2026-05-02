@@ -8,7 +8,7 @@ title: "Concerts & Events"
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| [Elgar Strings](/ensembles-orchestras/#elgar) | [Southampton Youth Strings](/ensembles-orchestras/#sys) | [Southampton Youth Concert Sinfonia](/ensembles-orchestras/#sycs) | [Southampton Youth Orchestra](/ensembles-orchestras/#syo) |
+| [Elgar Strings](/ensembles/#elgar) | [Southampton Youth Strings](/ensembles/#sys) | [Southampton Youth Concert Sinfonia](/ensembles/#sycs) | [Southampton Youth Orchestra](/ensembles/#syo) |
 |  |  | 17th March 2026 | 11th April 2026 11th July 2026 |
 |  | | | |
 
@@ -18,7 +18,7 @@ Next concert
 
 |  |
 | --- |
-| [Southampton Youth Concert Sinfonia](/ensembles-orchestras/#sycs) |
+| [Southampton Youth Concert Sinfonia](/ensembles/#sycs) |
 | 17th March 2026 |
 | Thornden Hall |
 |  |
