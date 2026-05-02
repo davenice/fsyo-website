@@ -18,10 +18,6 @@ theme = "fsyo"
     url = "/about/"
     weight = 2
   [[menu.main]]
-    name = "Committee"
-    url = "/committee/"
-    weight = 3
-  [[menu.main]]
     name = "Ensembles & Orchestras"
     url = "/ensembles/"
     weight = 4
