@@ -135,4 +135,9 @@ nav.base-nav ul li.current-menu-item > a {
 .btn-base-nav {
   color: #fff !important;
   border-color: rgba(255, 255, 255, 0.4) !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  padding: 0.3em 0.8em;
+  border-radius: 3px;
 }
