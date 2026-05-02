@@ -8,7 +8,7 @@ We rely entirely on volunteers and the generosity of our supporters. Membership 
 
 ## Committee
 
-We have 10 trustees made up of ensemble musical directors and elected members. The committee meets every few months.
+We have 10 trustees made up of ensemble musical directors and elected committee members. The trustees and wider committee meets every few months.
 
 **Current 2025/2026 FSYO Committee**
 
