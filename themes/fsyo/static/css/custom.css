@@ -72,6 +72,12 @@ table tr:nth-child(even) td {
   padding: 1.5em 0;
 }
 
+footer .mythemes-copyright p,
+footer .mythemes-copyright p span,
+footer .mythemes-copyright a {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
 /* ── Header with bg image ── */
 .site-header {
   background-size: cover;
