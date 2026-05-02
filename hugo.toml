@@ -26,6 +26,6 @@ theme = "fsyo"
     url = "/concerts-and-events/"
     weight = 5
   [[menu.main]]
-    name = "Please Donate"
-    url = "/please-donate/"
+    name = "Support Us"
+    url = "/support-us/"
     weight = 7

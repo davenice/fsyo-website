@@ -1,5 +1,5 @@
 ---
-title: "Please Donate"
+title: "Support Us"
 ---
 
 FSYO needs to raise money to support the Youth Orchestras of Southampton. There are many ways you can contribute:
