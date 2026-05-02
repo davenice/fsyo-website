@@ -30,10 +30,6 @@ theme = "fsyo"
     url = "/concerts-and-events/"
     weight = 5
   [[menu.main]]
-    name = "Concerts Archive"
-    url = "/concerts-events-archive/"
-    weight = 6
-  [[menu.main]]
     name = "Please Donate"
     url = "/please-donate/"
     weight = 7
