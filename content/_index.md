@@ -18,4 +18,4 @@ Please visit our [Events](/concerts-and-events/) page to find out what is happe
 
 We’d love to hear from you if you could offer any kind of support, great or small, throughout the year! Becoming a member today is an amazing way of helping to support your child’s orchestra, and other orchestras in the pyramid, now and into the future.
 
-To become a friend please read our pages on **[how you can help](/help/)** and on **[different ways to support us](/please-donate/)** or complete the membership application form [here](https://docs.google.com/forms/d/e/1FAIpQLScbeffUw_kyhXg_xUYin0rwBhGnRQaWJyJoUTy4rWWK6zzYrw/viewform?usp=sharing&ouid=115591289234940576224).
+To become a friend please read our page on **[different ways to support us](/please-donate/)** or complete the membership application form [here](https://docs.google.com/forms/d/e/1FAIpQLScbeffUw_kyhXg_xUYin0rwBhGnRQaWJyJoUTy4rWWK6zzYrw/viewform?usp=sharing&ouid=115591289234940576224).

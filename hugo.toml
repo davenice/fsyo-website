@@ -21,19 +21,19 @@ theme = "fsyo"
     name = "Committee"
     url = "/committee/"
     weight = 3
-    parent = "About Us"
   [[menu.main]]
     name = "Ensembles & Orchestras"
     url = "/ensembles/"
     weight = 4
-    parent = "About Us"
   [[menu.main]]
     name = "Concerts & Events"
     url = "/concerts-and-events/"
     weight = 5
-    parent = "About Us"
+  [[menu.main]]
+    name = "Concerts Archive"
+    url = "/concerts-events-archive/"
+    weight = 6
   [[menu.main]]
     name = "Please Donate"
     url = "/please-donate/"
-    weight = 6
-    parent = "About Us"
+    weight = 7
