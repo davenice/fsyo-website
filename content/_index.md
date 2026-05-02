@@ -12,7 +12,7 @@ Friends of Southampton Youth Orchestras is a charitable organisation (Registered
 
 ### Events and Concerts
 
-Please visit our [Events](/concerts-and-events/) page to find out what is happening!
+Please visit our [Events](/concerts/) page to find out what is happening!
 
 ## Become a SYO Friend!
 

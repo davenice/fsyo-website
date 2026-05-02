@@ -6,7 +6,7 @@ The Southampton Youth Orchestras consist of a pyramid of orchestras and string e
 
 Players can progress through the ensembles, or enter directly at any level. For Southampton Music Service students, pupils will usually join ensembles on their teacher's recommendation.
 
-A 'Pyramid' Concert showcasing the progression through the orchestras is usually held at the [Central Hall, Southampton](http://www.centralhall.org.uk/) in Jan/Feb. Visit the [Concerts and Events](/concerts-and-events/) page for more details.
+A 'Pyramid' Concert showcasing the progression through the orchestras is usually held at the [Central Hall, Southampton](http://www.centralhall.org.uk/) in Jan/Feb. Visit the [Concerts and Events](/concerts/) page for more details.
 
 To join a group please visit the Southampton Music Hub contact page or telephone 023 8083 3648 or e-mail music@southampton.gov.uk.
 
